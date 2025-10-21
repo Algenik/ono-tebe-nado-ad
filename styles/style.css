@@ -69,10 +69,12 @@
 }
 
 .cover__title {
+  width: 1100px;
   font-size: 100px;
   font-weight: 700;
   padding: 162px 0px 75px 0px;
   display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   grid-template-areas:
     "text_left . ."
     ". text_center ."
@@ -96,9 +98,10 @@
 }
 
 .aligned-text_right {
+  display: flexbox;
   padding-top: 15px;
-  padding-right: 50px;
-  margin-left: -89px;
+  padding-left: 110px;
+  margin-left: -185px;
   grid-area: text_right;
 }
 
