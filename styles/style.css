@@ -112,8 +112,7 @@
   display: grid;
   align-items: center;
   text-transform: uppercase;
-  grid-template-areas:
-    "descr descr button";
+  grid-template-areas: "descr descr button";
 }
 
 .cover__description-text {
@@ -216,10 +215,10 @@
 .about {
   padding-top: 150px;
   display: grid;
-  grid-template-areas: 
-  ". about_logo . about_column about_column"
-  ". . . about_column about_column"
-  ". . . about_column about_column";
+  grid-template-areas:
+    ". about_logo . about_column about_column"
+    ". . . about_column about_column"
+    ". . . about_column about_column";
   gap: 50px;
 }
 
