@@ -111,6 +111,7 @@
   word-spacing: 19px;
   display: grid;
   align-items: center;
+  text-transform: uppercase;
   grid-template-areas:
     "descr descr button";
 }
@@ -118,14 +119,12 @@
 .cover__description-text {
   grid-area: descr;
   font-weight: 400;
-  text-transform: uppercase;
 }
 
 .bet-button {
   grid-area: button;
   justify-self: center;
   background-color: transparent;
-  text-transform: uppercase;
   color: white;
   font-weight: 500;
   min-height: 51px;
@@ -141,6 +140,7 @@
   padding: 0px 0px 25px 65px;
   font-weight: 700;
   font-size: 40px;
+  text-transform: uppercase;
 }
 
 .lots__card-list {
